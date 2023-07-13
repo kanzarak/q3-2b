@@ -2,7 +2,7 @@
 
 Write a C program that prints the type of file for each path provided as command-line argument.
 
-The following POSIX macros are defined to check the file type using the st_mode field:
+The following POSIX macros are defined to check the file type using the `st_mode` field:
 ```
 S_ISREG(m)
 is it a regular file?
